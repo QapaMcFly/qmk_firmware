@@ -42,7 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE 5
 
 /* serial.c configuration for split keyboard */
-#define SOFT_SERIAL_PIN D0
+#define SOFT_SERIAL_PIN D1
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
@@ -52,8 +52,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* ws2812 RGB LED */
 #define RGB_DI_PIN D3
 
-#define RGBLED_NUM 14    // Number of LEDs
-
+#define RGBLED_NUM 8    // Number of LEDs
+#define RGBLIGHT_DEFAULT_HUE 196
 #define RGBLIGHT_SPLIT   // sync LEDs between RIGHT and LEFT hand
 
 /*
